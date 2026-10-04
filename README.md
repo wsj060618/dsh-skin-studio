@@ -15,8 +15,6 @@
 
 ## 安装
 
-> **推荐 · 插件市场**：打开 Harness → 设置 → 插件市场，搜索 `dsh-skin-studio` 安装。
-
 或命令行（web profile）：
 
 ```bash
