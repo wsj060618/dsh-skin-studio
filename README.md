@@ -20,14 +20,20 @@
 或命令行（web profile）：
 
 ```bash
-dsh plugin --profile web add dsh-skin-studio
+dsh plugin --profile web add github:wsj060618/dsh-skin-studio
+```
+
+或 npm 源：
+
+```bash
+dsh plugin --profile web add @wsj060618/dsh-skin-studio
 ```
 
 或 tarball 安装：
 
 ```bash
 npm pack
-dsh plugin --profile web add ./dsh-skin-studio-0.1.0.tgz
+dsh plugin --profile web add ./wsj060618-dsh-skin-studio-0.1.0.tgz
 ```
 
 ## 使用

@@ -220,7 +220,7 @@ const loadBundle = () => { captured.length = 0; (0, eval)(source); return captur
 
 const definition = loadBundle()
 check('bundle called __ModuleLoader__.load exactly once', captured.length === 1, `got ${captured.length}`)
-check('module id is dsh-skin-studio', definition && definition.id === 'dsh-skin-studio', String(definition && definition.id))
+check('module id is @wsj060618/dsh-skin-studio', definition && definition.id === '@wsj060618/dsh-skin-studio', String(definition && definition.id))
 check('factory is a function', typeof (definition && definition.factory) === 'function')
 
 /* ----------------------------------------------------------------- exercise apply */

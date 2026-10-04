@@ -1,5 +1,5 @@
 {
-  "name": "dsh-skin-studio",
+  "name": "@wsj060618/dsh-skin-studio",
   "version": "0.1.0",
   "description": "DeepSeek Harness enhancement plugin: a custom background image with a frosted-glass scrim (backdrop blur), leaving the original theme untouched.",
   "license": "MIT",

@@ -12,4 +12,4 @@
 # "Loading plugins..." with no exception.
 - insert:
     - id: skin-studio
-      name: dsh-skin-studio
+      name: "@wsj060618/dsh-skin-studio"
