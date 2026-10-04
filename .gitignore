@@ -3,4 +3,5 @@ smoke-out.txt
 _cc.txt
 _cc.mjs
 *.log
+*.tgz
 .DS_Store
