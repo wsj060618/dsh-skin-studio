@@ -1,0 +1,6 @@
+node_modules/
+smoke-out.txt
+_cc.txt
+_cc.mjs
+*.log
+.DS_Store

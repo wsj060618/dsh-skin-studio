@@ -1,0 +1,15 @@
+# The layer this bundle contributes to whichever profile selects it.
+#
+# One row, one package name. The client module system mounts this package's
+# browser half (./client) when the row is enabled; that half injects the
+# `slots` service (sidebar panel + main page) from
+# @deepseek-ai/dsh-client-ui-layout. It never touches the theme service — the
+# plugin only reads design-token values via getComputedStyle.
+#
+# NO `modifies` here on purpose. Consuming a service through the client half's
+# `inject` array is what orders activation; declaring `modifies` for a row whose
+# service this plugin consumes creates a cycle and hangs boot at
+# "Loading plugins..." with no exception.
+- insert:
+    - id: skin-studio
+      name: dsh-skin-studio
